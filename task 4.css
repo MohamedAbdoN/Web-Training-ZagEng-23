@@ -1,0 +1,251 @@
+/* تكليفات CSS الدروس من 01 إلى 04 */
+
+
+
+
+/* Any Element With Class Title */
+/* .title {
+} */
+                /* class title */
+/* ? */
+/* #nav {
+} */
+                    /* nav id */
+/* ? */
+/* div {
+} */
+                        /* name div */
+/* ? */
+/* h2 {
+} */
+                        /* name h2 */ 
+                        /* ///////////////////////////////////////////////////////////////// */
+                        /* التكليف 02
+                        اكتب في تعليق نوع كل Style من التالي */
+                        /* <!-- ? -->
+<link rel="stylesheet" href="css/file.css" />
+
+
+                external style
+<!-- ? -->
+<style>
+p {
+color: red;
+}
+</style>
+
+
+                    internal style
+<!-- ? -->
+<p style="color: blue;">This Is Our Paragraph</p> */ 
+
+
+                    /* inline style */
+                    /* //////////////////////////////////////////////////// */
+                    
+/* التكليف 05 */
+/* في أسماء ال Identifiers التالية حدد ما هو صالح وما هو غير صالح عن طريق كتابة Valid أو Not Valid في التعليق قبل الإسم */
+/* ? */
+/* ._user-name {
+} */
+                     /*  valid */
+
+/* ? */
+/* .-user-name {
+} */
+                /* Not valid */
+
+/* ? */
+/* .-user-name {
+} */
+                    /* Not valid */
+
+/* ? */
+/* .1user-name {
+} */
+                        /* Not valid */
+
+/* ? */
+/* .@user-name {
+} */
+                        /* Not valid */
+
+/* ? */
+/* .user@name {
+} */
+                    /* Not valid */
+
+/* ? */
+/* ._user10name {
+} */
+            /* not valid */
+
+/* ? */
+/* .u {
+} */
+                /* /////////////////////////////////////////////////////////////////////// */
+
+
+                /* التكليف 06 */
+                /* في أسماء ال Identifiers التالية حدد ما الذي يتبع ال Best Practice عن طريق كتابة Good أو Bad في التعليق قبل الإسم */
+                /* ? */
+                /* .USERNAME {
+                } */
+                                        /* Bad */
+                /* ? */
+                /* .UserName {
+                } */
+                                    /* Bad */
+                /* ? */
+                /* .user-name {
+                } */
+                                        /* Good */
+                /* ? */
+                /* .userName {
+                } */
+                                    /* good */
+                /* ? */
+                /* .usernameprofile {
+                } */
+                                /* Bad */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
+
+                                    /* تكليفات CSS الدروس من 05 إلى 08 */
+
+
+
+                                    /* التكليف 01
+                                    <div class="assign-1-shape-1">Normal Div</div>
+                                    <div class="assign-1-shape-2">Normal Div</div>
+                                    <div class="assign-1-shape-3">Normal Div</div>
+                                    إستخدم البنية السابقة لعمل المطلوب
+                                    ال Div عرضه هو 500px
+                                    قم بتوسيط ال Div داخل الصفحة بطريقة عرضية
+                                    قم بعمل هوامش داخلية قدرها 20px
+                                    قم بعمل خلفية لل Div لونها blueviolet
+                                    قم بتكرار السطر الخاص بالألوان بكل الطرق التالية [ RGB | HSL | Hex ]
+                                    قم بعمل Div آخر تحته بنفس الخلفية ولكن نسبة الشفافية Alpha Channel تكون النصف
+                                    قم بعمل Div آخر تحته بنفس الخلفية ولكن نسبة الشفافية Alpha Channel تكون 1 من 10 */
+
+                                /* .div{
+                                width: 500px;
+                                padding: 20px;
+                                margin: auto; 
+                                background-color: blueviolet;
+                                background-color: #8a2be2;
+                                background-color: rgb(138, 43, 226);
+                                }
+                                .assign-1-shape-2 {
+                                    background-color: rgba(138, 44, 226, 0.5);
+                                }
+                                .assign-1-shape-3 {
+                                    background-color: rgba(138, 44, 226, 0.1);
+                                } */
+
+                                /* /////////////////////////////////////////////////////////// */
+                                /* التكليف 02
+                                <div class="assign-2-shape-1">Normal Div</div>
+                                <div class="assign-2-shape-2">Normal Div</div>
+                                <div class="assign-2-shape-3">Normal Div</div>
+                                <div class="assign-2-shape-4">Normal Div</div>
+                                إستخدم البنية السابقة لعمل المطلوب
+                                ال Div طوله وعرضه هو 400px
+                                قم بوضع الصورة الموجودة في بداية التكليفات خلفية للعنصر
+                                في Shape 1 قم بجعل الخلفية لا تتكرر نهائيا
+                                في Shape 2 قم بجعل الخلفية تتكرر طوليا فقط
+                                في Shape 3 قم بجعل الخلفية تتكرر عرضيا فقط
+                                في Shape 4 قم بجعل الخلفية تتكرر طوليا وعرضيا
+                                 */  
+/* 
+                                 div {
+                                    width: 400px;
+                                    height: 400px;
+                                    background-image: url("../CSS/css-assignment-5-8.png");
+                                  
+                                  }
+                                  
+                                  .assign-2-shape-1 {
+                                    background-repeat: no-repeat;
+                                  }
+                                  .assign-2-shape-2 {
+                                    background-repeat: repeat-y;
+                                  }
+                                  .assign-2-shape-3 {
+                                    background-repeat: repeat-x;
+                                  }
+                                  .assign-2-shape-4 {
+                                    background-repeat: repeat;
+                                  } */
+
+                                  /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+                                  /* التكليف 01 */
+/* قم بعمل ثلاث عناصر نوعهم Div
+قم بوضع الثلاث عناصر بجانب بعضهم وبدون تحديد عرض لهم
+قم بعمل نفس الشكل الموجود في المثال بنفس الألوان
+حجم كل حافة من الحواف هو 5px */
+
+                            /* .shape1{
+                                display: inline-block;
+                                padding: 10px;
+                                background-color: aquamarine;
+                                border: 5px solid red;
+                                outline-style: solid;
+                                outline-width: 5px;
+                                outline-color: black;
+                            margin-left: 30px;
+                            margin-right: 30px;
+
+                            }
+                            .shape2{
+                                display: inline-block;
+                                padding: 10px;
+                                background-color: aquamarine;
+                                border-color: blue green blue green;
+                                border-style: solid;
+                                border-width: 5px;
+                                outline-style: solid;
+                                outline-width: 5px;
+                                outline-color: black;
+                                margin-left: 30px;
+                            margin-right: 30px;
+                            }
+                            .shape3{
+                                display: inline-block;
+                                padding: 10px;
+                                background-color: aquamarine;
+                                border-color: red green blue yellow;
+                                border-style: dashed ;
+                                border-width: 5px;
+
+                                outline-style: solid;
+                                outline-width: 5px;
+                                outline-color: black;
+                                margin-left: 30px;
+                            margin-right: 30px;
+
+                            } */
+                            /* //////////////////////////////////////////////////////////////////////////////////// */
+                            /* التكليف 02
+قم بعمل ثلاث عناصر متطابقين من ناحية العرض وهو 400px
+العنصر الثاني قم بإخفائه مع الحفاظ على مكانه في مساحة العمل
+قم بعمل الشكل كما في الصورة بنفس الألوان */
+
+                                    /* span {
+                                        display: block;
+                                        margin-top: 30px;
+                                        background-color: #e1dfdf;
+                                        padding: 10px;
+                                    }
+                                    .one {
+                                        border-left: 5px solid red;
+                                    }
+                                    .two {
+                                        visibility: hidden;
+                                    }
+                                    .three {
+                                        border-left: 5px solid green;
+                                    }
+                                    */
