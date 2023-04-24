@@ -1,0 +1,227 @@
+                    /* التكليف 01
+                    <div class="parent">
+                    <div class="child">This Is Child <span class="title">Title</span></div>
+                    <span class="title">Child Title</span>
+                    <p>Paragraph Content</p>
+                    </div>
+                    <div class="title">Section Title</div>
+                    شاهد البنية السابقة في المثال ولا تقم بالتعديل عليها
+                    قم بتلوين كلمة Title باللون الأحمر
+                    قم بتلوين جملة Child Title باللون الأزرق
+                    قم بتلوين جملة Paragraph Content باللون الأخضر
+                    قم بتلوين جملة Section Title باللون الأخضر
+                    قم بجمع الألوان المتشابهه مع بعضها */
+
+                    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+                                    /* .parent .child .title {
+                                        color: red;
+                                    }
+                                    .parent .title {
+                                        color: blue;
+                                    }
+                                    div p ,
+                                    .title{
+                                    color:green;
+                                    } */
+                      
+
+
+                                    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+                                    /* التكليف 02
+قم بعمل الشكل الموجود في الصورة كما هو بنفس الألوان
+يجب عدم تغيير ال Display الخاص بالعنصر ويظل نوعه Block كما هو
+يجب أن لا يزيد عرض العنصر عن 400px
+في آخر عنصر سوف تجد الكلمات خرجت من الصندوق وهي الآن ظاهرة, المطلوب إخفاء أي شيء يخرج من الصندوق */
+
+                    /* div {
+                        background-color: red;
+                        color: white;
+                        width: fit-content;
+                        margin: 15px;
+                        max-width: 400px;
+                        max-height: 50px;
+                        overflow: hidden;
+                    } */   
+                    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+                                                    /* التكليف 01
+                                قم بعمل نفس الشكل التالي
+                                يجب عليك عمل نفس الألوان
+                                */
+
+
+                                /* div {
+                                    font-size: 50px;
+                                    text-shadow: 1px 1px 0px red ,
+                                     2px 1px 0 blue ,
+                                      3px 1px 0 green;
+                                    font-weight: bold;
+                                  } */
+
+                                  /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+                                                /* التكليف 02
+                <p class="one">elzero Web school</p>
+                <p class="two">elzero Web school</p>
+                <p class="three">elzero Web school</p>
+                إستخدم البنية السابقة ولا تقم بالتعديل عليها
+                بواسطة ال CSS قم بعمل الشكل التالي وتأكد أن الحروف تظهر كما في الصورة */
+
+
+                /* div {
+                    font-size: 35px;
+                    text-align: center;
+                    margin-bottom: 20px ; 
+                    width: fit-content;
+                  }
+                  .one {
+                    text-transform: uppercase;
+                  }
+                  .two {
+                    text-transform: capitalize;
+                  }
+                  .three {
+                    text-transform: lowercase;
+                  } */
+
+                  /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+                                    /* التكليف 03
+                    <div>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Ea itaque fugit vitae incidunt quis dolores? Id alias
+                    eveniet sequi perspiciatis iusto impedit,
+                    accusamus maxime reprehenderit blanditiis adipisci sapiente hic velit.
+                    </div>
+                    إستخدم البنية السابقة ولا تقم بالتعديل عليها
+                    تأكد أن العنصر له نفس الألوان والهوامش الداخلية وعرض العنصر يكون 400px
+                    الشكل الأول في الصورة هو الوضع الطبيعي للعنصر. عندما يزيد النص سينزل للسطر التالي
+                    الشكل الثاني في الصورة المحتوى صغير ولم يصل لنهاية العنصر
+                    الشكل الثالث النصوص الموجودة فيه هي نفس الموجودة في الشكل الأول
+                    المطلوب قطع النص عند نهاية العنصر ولا تجعله ينزل للسطر التالي
+                    الثلاث نقاط يتم وضعها تلقائيا ولا تقم بكتابتها */
+
+
+                    /* div {
+                        width: 400px;
+                        background-color: #eee;
+                        padding: 15px;
+                        margin-bottom: 15px;
+                      }
+                      .two {
+                          overflow: hidden;
+                        word-break:break-all;
+                        text-overflow:"string";
+                        white-space:nowrap;
+                      }
+                      .three {
+                          overflow: hidden;
+                          text-overflow:ellipsis;
+                        white-space:nowrap;
+                      } */
+
+
+                      /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+                                                    /* التكليف 04
+                                <a href="https://elzero.org">elzero</a>
+                                إستخدم البنية السابقة ولا تقم بالتعديل عليها
+                                تأكد ان الرابط سيظهر في منتصف الصفحة تماما
+                                قم بعمل نفس الألوان وكل شيء ليظهر الشكل كما في المثال */
+
+
+                                /* a {
+                                    display: block;
+                                    font-size: 35px;
+                                    font-weight: bold;
+                                    width: fit-content;
+                                    color: white;
+                                    background-color: #68dacf;
+                                    padding: 15px 15px;
+                                    margin: 35px auto;
+                                    text-decoration: none;
+                                    border-bottom: 15px solid #80e0d8;
+                                    letter-spacing: 5px;
+                                  } */
+
+                                  /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+                                  /* التكليف 01
+<div>
+  <p>This Is Paragraph</p>
+</div>
+إستخدم البنية السابقة ولا تقم بالتعديل عليها
+قم بعمل الشكل التالي كما هو
+تأكد أن أي تغيير في ال Padding أو ال Border للعنصر الأب ( Div ) يحدث لنفس العنصر الإبن ( P ) بدون التعديل عليه
+ */
+
+
+                        /* div {
+                            padding: 20px;
+                            text-align: center;
+                            border: 5px solid red;
+                            margin-bottom: 10px;
+                        }
+                        p {
+                            font-size: 20px;
+                            background-color: #eee;
+                            border: inherit;
+                            padding: inherit;
+                            text-align: inherit;
+                        }
+                        div:nth-child(2) {
+                            border-color: green;
+                        } */
+
+                        /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+                                                /* التكليف 02
+                        قم بعمل الشكل التالي بثلاث خطوط مختلفة
+                        في الشكل الأول قم بإستعمال الخط Open Sans وتأكد أن وزن الخط هو 300 ويكون الخط مائل
+                        في الشكل الثاني قم بإستعمال الخط Cairo وتأكد أن وزن الخط هو 700
+                        في الشكل الثالث قم بإستعمال الخط Jomhuria وتأكد أن وزن الخط هو 400
+                        */
+
+                        /* div {
+                            font-size: 50px;
+                            text-align: center;
+                          }
+                          .one {
+                            font-family: Arial, Helvetica, sans-serif;
+                          }
+                          .two {
+                            font-family:  Georgia, Times, 'Times New Roman', sans-serif;
+                          }
+                          .three {
+                            font-family: Arial, Helvetica, sans-serif;
+                          } */
+
+
+                          /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+                                                /* التكليف 03
+                        حجم الخط في ال Root Element هو 20px
+                        قم بإستخدام ال Root Time ( Rem ) في الثلاث عناصر التالية لتخرج بالمقاسات المطلوبة
+                        مطلوب في العنصر الأول أن يكون حجم الخط 50px بال Rem
+                        مطلوب في العنصر الثاني أن يكون حجم الخط 40px بال Rem
+                        مطلوب في العنصر الثالث أن يكون حجم الخط 30px بال Rem */
+
+
+
+                        /* div {
+                            text-align: center;
+                            margin-bottom: 25px;
+                          }
+                          div:nth-child(1) {
+                            font-size: 2.5rem;
+                          }
+                          div:nth-child(2) {
+                            font-size: 2rem;
+                          }
+                          div:nth-child(3) {
+                            font-size: 1.5rem;
+                          } */
